@@ -33,14 +33,8 @@ def fighting():
 
 print ("IMMORTAL PEACE")
 tm.sleep(2)
-print ("hatim u better like this bro")
+print ("A remake of Mortal Kombat but worse!")
 tm.sleep(4)
-print("CHOOSE YOUR CHARACTER!")
-char = input("Zeus or The Smiling Jinn: ")
-if char == "Zeus":
-    power = "Lightning Bolt"
-if char == "The Smiling Jinn":
-    power = "Invisibility"
 ready = input("Ready to fight? (TYPE OK)")
 if ready == "OK":
     print ('FIGHT!')
