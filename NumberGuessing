@@ -1,0 +1,19 @@
+import random as rm
+
+print("Welcome to Number Guessing!")
+
+dgcount1 = int(input("What should be the lowest number?: "))
+dgcount2 = int(input ("What should be the highest number?: "))
+notoguess = rm.randint(dgcount1,dgcount2)
+
+print ("The number has been generated.")
+
+guess = int()
+guesscount = 0
+while guess != notoguess:
+    guess = int(input("What is the number?: "))
+    guesscount+=1
+    print (f"You have used {guesscount} guess/es")
+if guess == notoguess:
+    print (f"You have won in {guesscount} tries!")
+    print (f"The correct number was {notoguess}!")
